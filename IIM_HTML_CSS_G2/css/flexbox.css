@@ -1,0 +1,52 @@
+section {
+
+    border: 5px solid black;
+    height: 200px;
+
+}
+
+/* les divs dans nos sections */
+section div {
+
+    height: 50px;
+    width: 50px;
+    background-color: red;
+    border: 2px solid black;
+
+}
+
+.d-flex {
+    display: flex;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.justify-content-around {
+    justify-content: space-around;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.justify-content-end {
+    justify-content: flex-end;
+}
+
+.justify-content-start {
+    justify-content: flex-start;
+}
+
+.flex-column{
+    flex-direction: column;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.align-items-end {
+    align-items: flex-end;
+}

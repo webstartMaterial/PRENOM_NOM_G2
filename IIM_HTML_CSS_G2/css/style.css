@@ -1,0 +1,114 @@
+body {
+    background-color: red;
+}
+
+p {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+/* classe */
+.color-white {
+    /* color: white; */
+    /* color: #ffffff; */
+    /* color: rgb(255, 255, 255); */
+    color: rgba(255,255,255, 0.4);
+}
+
+/* id */
+#mon-pgh {
+    text-decoration: underline;
+    text-align: center;
+    font-style: italic;
+}
+
+.roboto-thin {
+    font-family: "Roboto", serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .roboto-light {
+    font-family: "Roboto", serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  p {
+    font-family: "Roboto", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  h2, h3, h4 {
+    font-family: "Roboto", serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+ h1 {
+    font-family: "Roboto", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .roboto-black {
+    font-family: "Roboto", serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  .roboto-thin-italic {
+    font-family: "Roboto", serif;
+    font-weight: 100;
+    font-style: italic;
+  }
+  
+  .roboto-light-italic {
+    font-family: "Roboto", serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .roboto-regular-italic {
+    font-family: "Roboto", serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .roboto-medium-italic {
+    font-family: "Roboto", serif;
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+  .roboto-bold-italic {
+    font-family: "Roboto", serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  .roboto-black-italic {
+    font-family: "Roboto", serif;
+    font-weight: 900;
+    font-style: italic;
+  }
+  
+  a:hover {
+    font-size: 40px;
+    color: yellow;
+  }
+
+  .border {
+    border: 2px solid black;
+    /* margin-top: 2rem;
+    margin-bottom: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem; */
+    margin: 4rem;
+    /* padding-top: 4rem;
+    padding-bottom: 4rem;
+    padding-left: 4rem;
+    padding-right: 4rem; */
+    padding: 4rem;
+  }

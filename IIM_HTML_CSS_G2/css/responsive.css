@@ -1,0 +1,77 @@
+section {
+
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    padding: 5rem;
+
+}
+
+div {
+
+    width: 50%;
+    height: 100%;
+    background-color: grey;
+
+}
+
+/* Petits appareils (smartphones) */
+@media (max-width: 576px) {
+    /* Styles pour les écrans ≤ 576px */
+
+    section {
+        padding: 1rem;
+    }
+
+    div {
+        width: 100%;
+        background-color: brown;
+    }
+
+}
+
+/* Moyens appareils (tablettes portrait) */
+@media (min-width: 577px) and (max-width: 768px) {
+    /* Styles pour les écrans entre 577px et 768px */
+
+    section {
+        padding: 2rem;
+    }
+
+    div {
+        width: 75%;
+        background-color: pink;
+        display: none;
+    }
+
+}
+
+/* Tablettes en mode paysage ou petits laptops */
+@media (min-width: 769px) and (max-width: 992px) {
+    /* Styles pour les écrans entre 769px et 992px */
+}
+
+/* Tablettes en mode paysage ou petits laptops + laptod desktop */
+@media (min-width: 769px) and (max-width: 1200px) {
+    /* Styles pour les écrans entre 769px et 1200 */
+
+    /* ici le style s'appliquera aux tablettes paysages et écran de bureau d'ordi */
+
+    div {
+        width: 400px;
+        height: 400px;
+        border-radius: 50%;
+    }
+
+}
+
+/* Laptops et desktops */
+@media (min-width: 993px) and (max-width: 1200px) {
+    /* Styles pour les écrans entre 993px et 1200px */
+}
+
+/* Grands écrans */
+@media (min-width: 1201px) {
+    /* Styles pour les écrans ≥ 1201px */
+}
